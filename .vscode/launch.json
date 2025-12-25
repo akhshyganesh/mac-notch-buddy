@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:mac-notch-buddy}",
+      "name": "Debug NotchBuddy",
+      "target": "NotchBuddy",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug NotchBuddy"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:mac-notch-buddy}",
+      "name": "Release NotchBuddy",
+      "target": "NotchBuddy",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release NotchBuddy"
+    }
+  ]
+}
